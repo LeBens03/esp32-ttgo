@@ -1,0 +1,6 @@
+[submodule "libraries/TFT_eSPI"]
+	path = libraries/TFT_eSPI
+	url = https://github.com/Bodmer/TFT_eSPI.git
+[submodule "libraries/Button2"]
+	path = libraries/Button2
+	url = https://github.com/LennartHennigs/Button2.git
