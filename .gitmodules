@@ -4,3 +4,9 @@
 [submodule "libraries/Button2"]
 	path = libraries/Button2
 	url = https://github.com/LennartHennigs/Button2.git
+[submodule "lib/ArduinoJson"]
+	path = lib/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson.git
+[submodule "libraries/ArduinoJson"]
+	path = libraries/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson.git
