@@ -1,19 +1,3 @@
-/**
- * Projet IoT - API RESTful sur TTGO T-Display
- * 
- * Université de Montpellier - Master 2 Génie Logiciel
- * Développement IoT et Embarqué - 2024-2025
- * 
- * Étudiants: DAIA Adam, DAFAOUI Mohammed
- * Encadrant: Mancheron Alban
- * 
- * Description:
- * Implémentation d'une API RESTful sur ESP32 (TTGO T-Display) permettant:
- * - Lecture de température via thermistance (NTC 10kΩ)
- * - Affichage en temps réel sur écran TFT
- * - Accès aux données via HTTP
- */
-
 #include <WiFi.h>
 #include <WebServer.h>
 #include <math.h>
