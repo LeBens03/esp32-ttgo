@@ -1,0 +1,27 @@
+/**
+ * config.h.template
+ *
+ * INSTRUCTIONS:
+ * 1) Copier ce fichier en "config.h"
+ *    - Arduino: dans le même dossier que main.ino
+ *    - PlatformIO: dans /src
+ * 2) Remplacer les valeurs ci-dessous
+ * 3) NE JAMAIS commiter config.h (ajouter config.h au .gitignore)
+ *
+ * Exemple:
+ *   cp config.h.template config.h
+ */
+
+#ifndef TTGO_CONFIG_H
+#define TTGO_CONFIG_H
+
+// ==================== SECURITY CONFIGURATION ====================
+static const char* AUTH_TOKEN   = "CHANGE_ME_UNIQUE_TOKEN_FROM_CODE_QR";
+static const char* DEVICE_NAME  = "ESP32 Smart Home";
+static const bool  AUTH_ENABLED = true;
+
+// ==================== WIFI CONFIGURATION ====================
+static const char* WIFI_SSID     = "CHANGE_ME_WIFI_SSID";
+static const char* WIFI_PASSWORD = "CHANGE_ME_WIFI_PASSWORD";
+
+#endif // TTGO_CONFIG_H
